@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <h1 class="text-center">A project based approach to learn model</h1>
+                  <p class="text-center"><a href="#" data-bs-target="#login-modal" data-bs-toggle="modal" role="button" class="btn btn-primary btn-lg">Login here</a></p>
+              </div>
+          </div>
+      </div>
+      <div class="modal fade" id="login-modal">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header bg-info">
+                      <img id="img-logo" class="img-thumbnail" src="./images/car-logos-mercedes-benz.jpg" alt="">
+                  </div>
+
+                    <div id="div-forms">
+                      <form>
+                        <div class="modal-body">
+                     <div>
+                 <span> Type your Email and password</span>
+                        </div>
+                        <input class="form-control " placeholder="Email" type="text" required>
+                        <input class="form-control" placeholder="password" type="password" required>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" >Remember me
+                            </label>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <button type="submit" class="btn btn-outline-info btn-lg btn-block">Login</button>
+                          </div>
+                          <div class="col-sm-6">
+                            <button type="submit" class="btn btn-outline-info btn-lg btn-block">Signup</button>
+                          </div>
+                        </div>
+                      </div>
+                      </form>
+                    </div>
+
+
+              </div>
+          </div>
+      </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

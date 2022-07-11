@@ -1,0 +1,26 @@
+body{
+    background: url("./images/pexels-lukas-kloeppel-466685.jpg") no-repeat center center fixed;
+    background-color: #464646;
+    background-size: cover;
+}
+#img-logo{
+    max-width: 70px;
+    max-height: 70px;  
+    margin: 0 auto;
+   
+    
+}
+#login-modal .modal-dialog{
+    width: 350px;
+
+}
+#login-modal input[type=text], input[type=password]{
+    margin-top: 20px;
+    border: 1px #5DA3FA solid;
+
+
+}
+.checkbox{
+    margin-top: 4px;
+
+}

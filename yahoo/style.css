@@ -1,0 +1,39 @@
+.nav-justified{
+  background-color: #eeee;
+  padding: 20px;
+  border-radius: 5px;
+  
+  
+}
+li a{
+  
+   padding: 15px;
+   text-align: center;
+   outline: none;
+   text-decoration: none;
+   text-align: center;
+   margin-left: 120px;
+   color: #777;
+   text-align: center;
+  
+   
+
+}
+.yahoo{
+  background-color: #e5e5e5;
+  text-align: center;
+  background-color: transparent;
+ 
+}
+.yahoo .btn{
+   padding: 15px 25px;
+   font-size: 20px;
+}
+ .centero{
+  text-align: center;
+ }
+.container{
+  border: 1px solid black;
+}
+
+
